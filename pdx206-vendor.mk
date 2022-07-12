@@ -200,22 +200,22 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/sony/pdx206/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/sony/pdx206/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_1_0x165c1010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_1_0x165c1010.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_1_0x165c4070.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_1_0x165c4070.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_2_0x165c1010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_2_0x165c1010.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_2_0x165c4070.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_2_0x165c4070.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_4_0x165c1010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_4_0x165c1010.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_4_0x165c4070.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_4_0x165c4070.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_5_0x165c1010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_5_0x165c1010.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_5_0x165c4070.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_5_0x165c4070.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_1_0x165d1010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_1_0x165d1010.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_1_0x165d4070.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_1_0x165d4070.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_2_0x165d1010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_2_0x165d1010.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_2_0x165d4070.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_2_0x165d4070.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_4_0x165d1010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_4_0x165d1010.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_4_0x165d4070.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_4_0x165d4070.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_5_0x165d1010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_5_0x165d1010.dat \
-    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_5_0x165d4070.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_5_0x165d4070.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_1_0x16631040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_1_0x165c1010.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_1_0x16632000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_1_0x165c4070.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_2_0x16631040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_2_0x165c1010.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_2_0x16632000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_2_0x165c4070.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_4_0x16631040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_4_0x165c1010.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_4_0x16632000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_4_0x165c4070.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_5_0x16631040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_5_0x165c1010.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_5_0x16632000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_5_0x165c4070.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_1_0x16641040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_1_0x165d1010.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_1_0x16642000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_1_0x165d4070.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_2_0x16641040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_2_0x165d1010.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_2_0x16642000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_2_0x165d4070.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_4_0x16641040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_4_0x165d1010.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_4_0x16642000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_4_0x165d4070.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_5_0x16641040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_5_0x165d1010.dat \
+    vendor/sony/pdx206/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_5_0x16642000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_5_0x165d4070.dat \
     vendor/sony/pdx206/proprietary/vendor/camera/CHI08BS1/bokeh_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/bokeh_comp.dat \
     vendor/sony/pdx206/proprietary/vendor/camera/CHI08BS1/color_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/color_ctrl.dat \
     vendor/sony/pdx206/proprietary/vendor/camera/CHI08BS1/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/dataflow.dat \
