@@ -13,6 +13,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/odm/bin/sony_ext_uim_ctrl:$(TARGET_COPY_OUT_ODM)/bin/sony_ext_uim_ctrl \
     vendor/sony/pdx206/proprietary/odm/etc/init/sony_ext_uim_ctrl.rc:$(TARGET_COPY_OUT_ODM)/etc/init/sony_ext_uim_ctrl.rc \
     vendor/sony/pdx206/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
+    vendor/sony/pdx206/proprietary/vendor/lib/libMiscTaWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiscTaWrapper.so \
+    vendor/sony/pdx206/proprietary/vendor/lib64/libMiscTaWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMiscTaWrapper.so \
     vendor/sony/pdx206/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/sony/pdx206/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/sony/pdx206/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
@@ -81,6 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
     vendor/sony/pdx206/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
     vendor/sony/pdx206/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
+    vendor/sony/pdx206/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
+    vendor/sony/pdx206/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/sony/pdx206/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
     vendor/sony/pdx206/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
     vendor/sony/pdx206/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
@@ -150,6 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor/sony/pdx206/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.soter@1.0-service \
     vendor/sony/pdx206/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/sony/pdx206/proprietary/vendor/bin/hw/vendor.semc.hardware.charger@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.semc.hardware.charger@1.0-service \
     vendor/sony/pdx206/proprietary/vendor/bin/hw/vendor.semc.hardware.display@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.semc.hardware.display@2.2-service \
     vendor/sony/pdx206/proprietary/vendor/bin/hw/vendor.semc.hardware.secd@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.semc.hardware.secd@1.1-service \
     vendor/sony/pdx206/proprietary/vendor/bin/hw/vendor.semc.system.idd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.semc.system.idd@1.0-service \
