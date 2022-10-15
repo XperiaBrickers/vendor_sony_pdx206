@@ -171,6 +171,16 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "daxService",
+	owner: "sony",
+	apk: "proprietary/system/priv-app/daxService/daxService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "CneApp",
 	owner: "sony",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",

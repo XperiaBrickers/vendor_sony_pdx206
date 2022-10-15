@@ -2344,6 +2344,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@2.0 \
     com.quicinc.cne.constants@2.1 \
     CneApp \
+    daxService \
     IWlanService \
     TimeService \
     com.qualcomm.qti.gpudrivers.kona.api30 \
